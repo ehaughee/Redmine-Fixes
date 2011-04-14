@@ -1,0 +1,17 @@
+{
+	"name": "TimeEntries for Redmine Issues",
+	"version": "1.0.0.3",
+	"description": "This extension adds a link to Time Issues on Issues pages.",
+	
+	"permissions": [
+		"tabs"
+	],
+	
+	"content_scripts": [
+		{
+			"matches": ["http://support.utiliflex.com/issues/*"],
+			"run_at": "document_end",
+			"js": ["script.js"]
+		}
+	]
+}

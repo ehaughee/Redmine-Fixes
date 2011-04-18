@@ -1,6 +1,6 @@
 {
 	"name": "TimeEntries for Redmine Issues",
-	"version": "1.0.0.3",
+	"version": "1.0.0.4",
 	"description": "This extension adds a link to Time Issues on Issues pages.",
 	
 	"permissions": [

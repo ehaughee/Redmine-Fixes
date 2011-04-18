@@ -1,0 +1,3 @@
+# Ignore the key file and extension itself
+*.crx
+*.pem

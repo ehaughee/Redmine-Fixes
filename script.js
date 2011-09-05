@@ -1,6 +1,4 @@
 var timeEntries = "time_entries";
-var url = document.URL;
-url = url.substring(0, 36);
 
 if (document.URL[document.URL.length - 1] != '/')
 	timeEntries = "/time_entries";
